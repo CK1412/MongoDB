@@ -38,7 +38,7 @@
 - **_Document_** : &nbsp; A record inside of a collection. This is the same as a row in SQL and usually there will be one document per object in the collection. A document is also essentially just a JSON object.
 - **_Field_** : &nbsp; A key value pair within a document. This is the same as a column in SQL. Each document will have some number of fields that contain information such as name, address, hobbies, etc. An important difference between SQL and MongoDB is that a field can contain values such as JSON objects, and arrays instead of just strings, number, booleans, etc.
 
-<div align="right"> <a href="#top">Về đầu trang</a> </div>
+<div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Basic Commands <a name="basic-commands"></a>
 
@@ -51,7 +51,7 @@
 - `db.dropDatabase()` : &nbsp; Delete the current database.
 - `exit` : &nbsp; Exit the mongosh session.
 
-<div align="right"> <a href="#top">Về đầu trang</a> </div>
+<div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Create <a name="create-commands"></a>
 
@@ -71,7 +71,7 @@
   ==> Add two new documents with the age of 26 and 20 into the users collection
   ```
 
-  <div align="right"> <a href="#top">Về đầu trang</a> </div>
+  <div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Read <a name="read-commands"></a>
 
@@ -119,7 +119,7 @@
   ==> Get the number of users with the name Kyle
   ```
 
-  <div align="right"> <a href="#top">Về đầu trang</a> </div>
+  <div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Update <a name="update-commands"></a>
 
@@ -146,7 +146,7 @@
   ==> Replace the first user with an age of 12 with an object that has the age of 13 as its only field
   ```
 
-  <div align="right"> <a href="#top">Về đầu trang</a> </div>
+  <div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Delete <a name="delete-commands"></a>
 
@@ -166,7 +166,7 @@
   ==> Delete all users with an age of 12
   ```
 
-  <div align="right"> <a href="#top">Về đầu trang</a> </div>
+  <div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Complex Filter Object <a name="complex-filter-object"></a>
 
@@ -258,7 +258,7 @@
   ==> Get all users that have a balance that is greater than their debt
   ```
 
-  <div align="right"> <a href="#top">Về đầu trang</a> </div>
+  <div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Complex Update Object <a name="complex-update-object"></a>
 
@@ -306,7 +306,7 @@
   ==> Remove Mike from the friends array for all users
   ```
 
-  <div align="right"> <a href="#top">Về đầu trang</a> </div>
+  <div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Read Modifiers <a name="read-modifiers"></a>
 
@@ -333,7 +333,7 @@
   ==> Skip the first 4 users when returning results. This is great for pagination when combined with limit.
   ```
 
-  <div align="right"> <a href="#top">Về đầu trang</a> </div>
+  <div align="right"> <a href="#top">Back to top</a> </div>
 
 ---
 
