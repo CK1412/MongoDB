@@ -40,6 +40,12 @@
 - **_Document_** : &nbsp; A record inside of a collection. This is the same as a row in SQL and usually there will be one document per object in the collection. A document is also essentially just a JSON object.
 - **_Field_** : &nbsp; A key value pair within a document. This is the same as a column in SQL. Each document will have some number of fields that contain information such as name, address, hobbies, etc. An important difference between SQL and MongoDB is that a field can contain values such as JSON objects, and arrays instead of just strings, number, booleans, etc.
 
+*Structure of a MongoDB Database:*
+
+<img alt="illustration" height="300px" src="https://media.geeksforgeeks.org/wp-content/uploads/20200127193216/mongodb-nosql-working.jpg" />
+
+[Image Source](https://www.geeksforgeeks.org/what-is-mongodb-working-and-features/)
+
 <div align="right"> <a href="#top">Back to top</a> </div>
 
 ## Basic Commands <a name="basic-commands"></a>
