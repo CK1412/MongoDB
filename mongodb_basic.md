@@ -769,7 +769,7 @@ db.zips.find().limit(3).sort({ "pop": 1, "city": -1 }).pretty()
 > - Are one of the most impactful ways to improve query performance
 
 - Indexes support the efficient execution of queries in MongoDB.
-- Without indexes, MongoDB must perform a collection scan, i.e. scan every document in a collection, to select those documents that match the query statement.- If an appropriate index exists for a query, MongoDB can use the index to limit the number of documents it must inspect.
+- Without indexes, MongoDB must perform a collection scan, scan every document in a collection, to select those documents that match the query statement. If an appropriate index exists for a query, MongoDB can use the index to limit the number of documents it must inspect.
 - In a database – indexes is special data structure that stores a small portion of the collection's data set in an easy to traverse form.
 
 - **When to index?** support your queries
@@ -778,7 +778,7 @@ db.zips.find().limit(3).sort({ "pop": 1, "city": -1 }).pretty()
 
   - If I'm running queries on these trips collection and find that I **often** query by the **birth year**,
 
-    > query 1: `db.trips.find({ "birth year": 1989 })`
+    > query 1: `db.trips.find({ "birth year": 1989 })` \
     > query 2: `db.trips.find({"start station id": 476}).sort("birth year": 1)`
 
   - so let's create an **index** base on the birth year values that supports these queries.
