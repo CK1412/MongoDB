@@ -236,6 +236,7 @@ mongoimport --uri="mongodb+srv://<your username>:<your password>@<your cluster>.
 - `db` : &nbsp; Show current database name.
 - `cls` : &nbsp; Clear the terminal screen.
 - `show collections` : &nbsp; Show all collections in the current database.
+- `db.createCollection("<collection-name>")` : &nbsp; Create a collection into the current database.
 - `db.dropDatabase()` : &nbsp; Delete the current database.
 - `exit` : &nbsp; Exit the mongosh session.
 
